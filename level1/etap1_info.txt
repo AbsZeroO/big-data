@@ -1,0 +1,10 @@
+przetwarzanie dużych zb. danych
+- podstawowe wgrywa 1 osoba
+- dodatkowe można robić samemu/wparach - wgrywa każdy, ale może być ten sam plik, można wgrywać ten sam plik i w zadanie podstawowe i w dodatkowe
+- można w jednym tygodniu oddać zadanie podstawowe a dodatkowe w kolejnym (jeżeli jest to jeszcze ten sam etap #speedrun)
+- zadanie 1
+- nie robić analiz, tylko zapoznajemy się z danymi
+- 4.1 nazwa, powierzchnia, liczba ludności, kod kraju, położenie geogr.
+- 4.2 zachorowania rozróżnione na kontynety/kraje nie tylko świat (nie robimy statystyk, pobieramy tylko dane)
+zrobić osobne csv 4.1-4.5 i jedną większą z wszystkim na wikampa
+zadanie dodatkowe - zrobić kolejne csvki jak wyżej i połączyć z wcześniejszymi, może to być temat niemedyczny/covidu np. kurs walut
