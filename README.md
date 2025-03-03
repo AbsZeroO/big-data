@@ -1,0 +1,3 @@
+- zadania podstawowe wgrywa 1 osoba
+- zadania dodatkowe można robić samemu/wparach - wgrywa każdy, ale może być ten sam plik, można wgrywać ten sam plik i w zadanie podstawowe i w dodatkowe
+- można w jednym tygodniu oddać zadanie podstawowe a dodatkowe w kolejnym (jeżeli jest to jeszcze ten sam etap #speedrun)
