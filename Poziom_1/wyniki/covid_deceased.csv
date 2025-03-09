@@ -1,4 +1,4 @@
-Country_name,3_letter_code,New_deceased
+Country_name,3_letter_code,Total_new_deceased
 Afghanistan,AFG,14432
 Albania,ALB,3586
 Algeria,DZA,6879
@@ -6,7 +6,6 @@ American Samoa,ASM,34
 Andorra,AND,155
 Angola,AGO,1917
 Anguilla,AIA,12
-Antarctica,ATA,
 Antigua and Barbuda,ATG,145
 Argentina,ARG,379720
 Armenia,ARM,8669
@@ -27,9 +26,7 @@ Bhutan,BTN,21
 Bolivia,BOL,22218
 Bosnia and Herzegovina,BIH,16104
 Botswana,BWA,2779
-Bouvet Island,BVT,
 Brazil,BRA,2220286
-British Indian Ocean Territory,IOT,
 British Virgin Islands,VGB,64
 Brunei,BRN,130
 Bulgaria,BGR,37663
@@ -39,14 +36,11 @@ Cambodia,KHM,3056
 Cameroon,CMR,1935
 Canada,CAN,167195
 Cape Verde,CPV,410
-Caribbean Netherlands,BES,
 Cayman Islands,CYM,31
 Central African Republic,CAF,113
 Chad,TCD,193
 Chile,CHL,194597
 China,CHN,32624
-Christmas Island,CXR,
-Cocos Islands,CCK,
 Colombia,COL,476778
 Comoros,COM,160
 Cook Islands,COK,1
@@ -76,7 +70,6 @@ Finland,FIN,5858
 France,FRA,320054
 French Guiana,GUF,409
 French Polynesia,PYF,649
-French Southern Territories,ATF,
 Gabon,GAB,306
 Gambia,GMB,372
 Georgia,GEO,16900
@@ -93,7 +86,6 @@ Guinea,GIN,449
 Guinea-Bissau,GNB,175
 Guyana,GUY,1279
 Haiti,HTI,1505
-Heard Island and McDonald Islands,HMD,
 Honduras,HND,10989
 Hong Kong,HKG,216
 Hungary,HUN,47409
@@ -153,14 +145,12 @@ Namibia,NAM,4077
 Nauru,NRU,1
 Nepal,NPL,12015
 Netherlands,NLD,133015
-Netherlands Antilles,,
 New Caledonia,NCL,314
 New Zealand,NZL,2955
 Nicaragua,NIC,244
 Niger,NER,312
 Nigeria,NGA,3154
 Niue,NIU,0
-Norfolk Island,NFK,
 North Korea,PRK,0
 Northern Mariana Islands,MNP,40
 Norway,NOR,4038
@@ -201,14 +191,12 @@ Slovenia,SVN,7234
 Solomon Islands,SLB,153
 Somalia,SOM,1361
 South Africa,ZAF,249432
-South Georgia and the South Sandwich Islands,SGS,
 South Korea,KOR,27929
 South Sudan,SSD,138
 Spain,ESP,217985
 Sri Lanka,LKA,16737
 Sudan,SDN,4961
 Suriname,SUR,1384
-Svalbard and Jan Mayen,SJM,
 Swaziland,SWZ,1422
 Sweden,SWE,40106
 Switzerland,CHE,27100
@@ -231,7 +219,6 @@ Uganda,UGA,3628
 Ukraine,UKR,223145
 United Arab Emirates,ARE,2342
 United Kingdom,GBR,563933
-United States Minor Outlying Islands,UMI,
 United States Virgin Islands,VIR,123
 United States of America,USA,3054446
 Uruguay,URY,7462
@@ -241,7 +228,6 @@ Vatican City,VAT,0
 Venezuela,VEN,5809
 Vietnam,VNM,43132
 Wallis and Futuna,WLF,7
-Western Sahara,ESH,
 Yemen,YEM,2155
 Zambia,ZMB,4017
 Zimbabwe,ZWE,5596

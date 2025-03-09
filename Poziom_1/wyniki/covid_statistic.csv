@@ -6,7 +6,6 @@ American Samoa,ASM,8217
 Andorra,AND,46147
 Angola,AGO,103131
 Anguilla,AIA,3856
-Antarctica,ATA,
 Antigua and Barbuda,ATG,9008
 Argentina,ARG,27450377
 Armenia,ARM,439302
@@ -27,9 +26,7 @@ Bhutan,BTN,61419
 Bolivia,BOL,1106538
 Bosnia and Herzegovina,BIH,397602
 Botswana,BWA,326107
-Bouvet Island,BVT,
 Brazil,BRA,109948210
-British Indian Ocean Territory,IOT,
 British Virgin Islands,VGB,7305
 Brunei,BRN,224610
 Bulgaria,BGR,1250250
@@ -39,14 +36,11 @@ Cambodia,KHM,137739
 Cameroon,CMR,121652
 Canada,CAN,7914343
 Cape Verde,CPV,62346
-Caribbean Netherlands,BES,
 Cayman Islands,CYM,30545
 Central African Republic,CAF,14903
 Chad,TCD,7558
 Chile,CHL,13636490
 China,CHN,7758224
-Christmas Island,CXR,
-Cocos Islands,CCK,
 Colombia,COL,17784672
 Comoros,COM,8467
 Cook Islands,COK,6389
@@ -76,7 +70,6 @@ Finland,FIN,1430775
 France,FRA,90395908
 French Guiana,GUF,93837
 French Polynesia,PYF,76578
-French Southern Territories,ATF,
 Gabon,GAB,48668
 Gambia,GMB,12415
 Georgia,GEO,1762206
@@ -93,7 +86,6 @@ Guinea,GIN,37652
 Guinea-Bissau,GNB,8796
 Guyana,GUY,71209
 Haiti,HTI,56492
-Heard Island and McDonald Islands,HMD,
 Honduras,HND,455669
 Hong Kong,HKG,15441
 Hungary,HUN,2070443
@@ -153,14 +145,12 @@ Namibia,NAM,166645
 Nauru,NRU,4610
 Nepal,NPL,999121
 Netherlands,NLD,48677313
-Netherlands Antilles,,
 New Caledonia,NCL,74222
 New Zealand,NZL,1746283
 Nicaragua,NIC,14990
 Niger,NER,9388
 Nigeria,NGA,264617
 Niue,NIU,78
-Norfolk Island,NFK,
 North Korea,PRK,0
 Northern Mariana Islands,MNP,13155
 Norway,NOR,2898659
@@ -201,14 +191,12 @@ Slovenia,SVN,1146874
 Solomon Islands,SLB,21544
 Somalia,SOM,27197
 South Africa,ZAF,11020928
-South Georgia and the South Sandwich Islands,SGS,
 South Korea,KOR,24284819
 South Sudan,SSD,17780
 Spain,ESP,31279968
 Sri Lanka,LKA,670519
 Sudan,SDN,76591
 Suriname,SUR,81078
-Svalbard and Jan Mayen,SJM,
 Swaziland,SWZ,73374
 Sweden,SWE,5157043
 Switzerland,CHE,8109161
@@ -231,7 +219,6 @@ Uganda,UGA,169001
 Ukraine,UKR,10333691
 United Arab Emirates,ARE,1021191
 United Kingdom,GBR,93262911
-United States Minor Outlying Islands,UMI,
 United States Virgin Islands,VIR,22970
 United States of America,USA,272181074
 Uruguay,URY,982846
@@ -241,7 +228,6 @@ Vatican City,VAT,26
 Venezuela,VEN,935540
 Vietnam,VNM,11448034
 Wallis and Futuna,WLF,761
-Western Sahara,ESH,
 Yemen,YEM,11932
 Zambia,ZMB,333229
 Zimbabwe,ZWE,256939
