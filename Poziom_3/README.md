@@ -1,5 +1,5 @@
 # Analiza danych COVID-19 – Regresja liniowa i wielomianowa
-## Ostateczny plik to plik final_level3
+## Plik wynikowy final_level3
 
 ## Opis projektu
 Projekt przedstawia analizę danych dotyczących pandemii COVID-19 w różnych krajach. W ramach analizy zastosowano regresję liniową oraz wielomianową w celu oceny dopasowania modeli do rzeczywistych danych. Analizowane dane obejmują:
