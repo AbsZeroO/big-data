@@ -1,57 +1,49 @@
-# Podstawy Przetwarzania Dużych Zbiorów Danych – Projekt COVID-19
+# Analiza danych COVID-19
 
-Projekt realizowany w ramach zajęć **Podstawy Przetwarzania Dużych Zbiorów Danych**.  
-Autorzy:  
-- Łukasz Moskwa
-- Artur Szewczykowski
+## Opis projektu
+Projekt dotyczy analizy danych COVID-19 dla 10 wybranych krajów w kwietniu 2021 roku. Dane obejmują liczbę nowych zachorowań, zgonów, szczepień, PKB, populację oraz wskaźniki demograficzne i gospodarcze.
 
-## 📌 Opis
-Celem projektu jest zapoznanie się z narzędziem **Google BigQuery** oraz wykorzystanie publicznych zbiorów danych związanych z pandemią COVID-19. Notebook zawiera przykłady połączenia z BigQuery, pobierania danych do Pythona (DataFrame Pandas) oraz ich podstawowej eksploracji i analizy.
+## Cele analizy
+- Porównanie liczby zachorowań, zgonów i szczepień w odniesieniu do PKB i populacji.
+- Normalizacja danych na 1000 mieszkańców oraz względem populacji miejskiej.
+- Analiza korelacji między wskaźnikami epidemiologicznymi, gospodarczymi i demograficznymi.
 
-Źródła danych:  
-- [COVID-19 Open Data](https://github.com/GoogleCloudPlatform/covid-19-open-data)  
-- [Dokumentacja tabeli](https://github.com/GoogleCloudPlatform/covid-19-open-data/blob/main/docs/table-by-sex.md)  
+## Główne obserwacje
 
-## ⚙️ Wymagania
-- Python 3.8+
-- Konto Google Cloud z dostępem do **BigQuery**
-- Plik z kluczem JSON do usługi (Google Cloud Service Account)
+### 1. Analiza w odniesieniu do PKB
+- Turcja, Polska, Węgry i Bułgaria wyróżniają się dużą liczbą zachorowań w stosunku do PKB.
+- Bułgaria ma najwyższy stosunek zgonów do PKB.
+- Węgry, Litwa, Chorwacja, Polska, Turcja i Grecja przodują w liczbie szczepień względem PKB.
+- Rosja radziła sobie lepiej niż oczekiwano, mimo słabszego PKB per capita.
 
-Biblioteki używane w projekcie:
-- `pandas`
-- `google-cloud-bigquery`
+### 2. Analiza w odniesieniu do populacji
+- Normalizacja danych pozwala lepiej ocenić sytuację epidemiologiczną.
+- Turcja, Polska, Węgry i Bułgaria nadal wyróżniają się pod względem zachorowań.
+- Węgry i Litwa osiągają bardzo wysoką średnią liczby szczepień na mieszkańca.
 
-## 🚀 Uruchomienie
-1. Sklonuj repozytorium lub pobierz notebook `Poziom1.ipynb`.
-2. Skonfiguruj środowisko wirtualne i zainstaluj wymagane paczki:
-   ```bash
-   pip install pandas google-cloud-bigquery
-   ```
-3. Pobierz plik klucza JSON z Google Cloud i umieść go w katalogu `.env/`.
-4. Ustaw zmienną środowiskową w notebooku:
-   ```python
-   os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ".env/<nazwa_pliku>.json"
-   ```
-5. Uruchom notebook w Jupyter Lab / Jupyter Notebook:
-   ```bash
-   jupyter notebook Poziom1.ipynb
-   ```
+### 3. Normalizacja na 1000 mieszkańców
+- Zachorowania: Turcja liderem, niespodzianka Chorwacja i Litwa.
+- Zgony: Polska spada w rankingu w porównaniu do liczb bezwzględnych.
+- Szczepienia: Węgry osiągają bardzo dobre wyniki po normalizacji, Rosja słabiej.
 
-## 📊 Zakres analizy
-Notebook obejmuje:
-- konfigurację klienta BigQuery,
-- pobranie przykładowych danych z tabeli COVID-19,
-- podstawowe zapytania SQL (m.in. liczba rekordów, liczba krajów),
-- eksplorację i wstępną analizę zbioru.
+### 4. Normalizacja względem populacji miejskiej
+- Chorwacja ma najwyższe zachorowania w miastach.
+- W pozostałych przypadkach zmiany w rankingu są niewielkie.
 
-## 📂 Struktura projektu
-```
-.
-├── Poziom1.ipynb   # Notebook z analizą
-├── .env/           # Katalog z kluczem JSON (nie dołączony do repo)
-└── README.md       # Dokumentacja projektu
-```
+### 5. Korelacje danych
+- Między zachorowaniami, zgonami i szczepieniami korelacje dodatnie.
+- Nowe zachorowania i zgony wykazują silniejsze powiązanie niż z szczepieniami.
+- PKB per capita dodatnio koreluje ze szczepieniami, słabiej z zachorowaniami i zgonami.
+- Wskaźniki demograficzne: gęstość zaludnienia ma niewielki wpływ na zachorowania i zgony.
+- Obostrzenia: niewielkie dodatnie korelacje z zachorowaniami i zgonami.
 
-## 📝 Uwagi
-- Plik z kluczem JSON do Google Cloud **nie jest dołączony** do repozytorium. Każdy użytkownik musi wygenerować własny.
-- W przypadku problemów z dostępem do danych należy upewnić się, że w Google Cloud aktywowano **BigQuery API**.
+## Technologie i biblioteki
+- Python 3
+- Pandas, NumPy
+- Matplotlib, Seaborn
+
+## Wnioski
+- Normalizacja danych jest kluczowa dla realistycznej oceny sytuacji epidemiologicznej.
+- Turcja, Polska, Węgry i Bułgaria wyróżniają się pod względem zachorowań i zgonów.
+- Wysoka liczba szczepień w Węgrzech, Litwie i Chorwacji jest pozytywnym zjawiskiem.
+- Rosja osiągnęła lepsze wyniki niż oczekiwano przy niskim PKB per capita, co może wynikać z niskiej gęstości zaludnienia.
