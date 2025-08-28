@@ -29,6 +29,6 @@ Projekt podzielony jest na trzy poziomy, każdy z własnym zestawem notebooków 
 - Szczegóły i instrukcje uruchomienia: [Poziom 3 README](https://github.com/AbsZeroO/big-data/blob/main/Poziom_3/README.md)
 
 ### Poziom 5– Analiza danych w PySpark
-- Notebooki i dane: `Poziom3/`  
+- Notebooki i dane: `Poziom5/ex5.ipynb`  
 - Opis: przetwarzanie dużych zbiorów danych COVID-19 w PySpark – filtrowanie, agregacje, łączenie zbiorów  
 - Szczegóły i instrukcje uruchomienia: [Poziom 5 README](https://github.com/AbsZeroO/big-data/blob/main/Poziom_5_Spark/README.md)
