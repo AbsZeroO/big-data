@@ -1,4 +1,4 @@
-# Analiza danych COVID-19 w PySpark 🧢💻
+# Analiza danych COVID-19 w PySpark
 
 Projekt koncentruje się na eksploracji i analizie danych dotyczących pandemii COVID-19 z wykorzystaniem **PySpark**. Notebooki pokazują, jak łączyć, filtrować, agregować oraz wizualizować dane o krajach, populacji, gęstości zaludnienia, PKB, zakażeniach i szczepieniach.
 
